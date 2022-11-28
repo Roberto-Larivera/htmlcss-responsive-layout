@@ -15,6 +15,7 @@
     --space-margin: 2rem;
     --space-padding: 2.2rem;
     --space-radius: 1rem;
+    --space-radius-due: 2rem;
 
 }
 
@@ -22,5 +23,6 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 var(--space-margin) ;
+
 }
 
