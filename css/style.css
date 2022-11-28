@@ -12,13 +12,34 @@ header{
 /* REGOLE MAIN  */
 
 /* SECTION APPLICATION  */
+#application {
+    padding: var(--space-margin);
+}
 #application .cards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: var(--space-margin);
+    margin: 0 -0.75rem;
+    
+    
 }
 #application .cards .card{
     background-color: var(--primary-color-light);
-    width: calc(100% / 3);
+    width:  calc((100% / 3) - 1.5rem);
+    margin-bottom: var(--space-margin);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    display: flex;
 } 
+#application .cards .card:first-child{
+    width: calc(((100% / 3 - 1.75rem))*2);
+} 
+
+
+
+
+/* SECTION APPLICATION  */
+#planning{
+    background-color: var(--secondary-color);
+    
+}

@@ -9,11 +9,14 @@
 :root{
     --primary-color: #0084FD;
     --primary-color-light: #b5ddff;
-    --space-margin: 1rem;
+    --space-margin: 2rem;
+    --secondary-color: #9792e4;
+
 }
 
 .container{
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 var(--space-margin) ;
 }
 
