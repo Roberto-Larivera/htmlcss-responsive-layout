@@ -9,9 +9,10 @@
 :root{
     --primary-color: #0084FD;
     --primary-color-light: #b5ddff;
-    --space-margin: 2rem;
     --secondary-color: #9792e4;
     --black-gray-color: #333;
+    --primary-color-text: white;
+    --space-margin: 2rem;
 
 }
 

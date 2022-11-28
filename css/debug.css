@@ -2,11 +2,3 @@
     padding: 10px;
     border: 2px dashed red;
 }
-
-.debug .principal-header{
-    border: 2px dashed red;
-}
-
-.debug #planning{
-    /* min-height: 300px; */
-}

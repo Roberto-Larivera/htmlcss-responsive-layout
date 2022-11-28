@@ -3,12 +3,16 @@ header{
     background-color: var(--primary-color);
 }
 
-.principal-header{
+header .principal-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-
+header .principal-header .box i{
+    color: var(--primary-color-text);
+    font-size: 2rem;
+}
 /* REGOLE MAIN  */
 
 /* SECTION APPLICATION  */
@@ -37,8 +41,18 @@ header{
 #application .cards .card:first-child > *{
     width: 50%;
 } 
-
-
+#application .cards .card .box{
+    width: 100%;
+}
+#application .cards .card:first-child .box{
+    padding-bottom: 0;
+}
+#application .cards .card .box h3{
+    margin: var(--space-margin);
+}
+#application .cards .card .box img{
+    width: 100%;
+}
 
 
 /* SECTION PLANNING  */
