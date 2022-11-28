@@ -1,0 +1,19 @@
+/* RESET  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI  */
+:root{
+    --primary-color: #0084FD;
+    --primary-color-light: #b5ddff;
+    --space-margin: 1rem;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+

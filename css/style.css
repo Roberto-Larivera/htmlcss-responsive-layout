@@ -1,0 +1,24 @@
+/* REGOLE HEADER  */
+header{
+    background-color: var(--primary-color);
+}
+
+.principal-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* REGOLE MAIN  */
+
+/* SECTION APPLICATION  */
+#application .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-margin);
+}
+#application .cards .card{
+    background-color: var(--primary-color-light);
+    width: calc(100% / 3);
+} 
