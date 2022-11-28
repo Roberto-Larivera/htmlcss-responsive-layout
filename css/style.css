@@ -87,10 +87,10 @@ header{
     margin-bottom: var(--space-margin);
 }
 #benefits .cards{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 -0.75rem;
 }
 
 #benefits .card{
@@ -112,4 +112,23 @@ header{
 #about .row{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+#about .row .col:first-child{
+    width: 60%;
+}
+#about .row .col:last-child{
+    width: 40%;
+}
+#about .row .col .box{
+    margin-bottom: var(--space-margin);
+}
+
+
+
+
+/* SECTION GET-STARTED */
+#get-started{
+    background-color: var(--secondary-color);
+    padding: var(--space-margin) 0;
 }
