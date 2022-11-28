@@ -13,7 +13,7 @@ header{
 
 /* SECTION APPLICATION  */
 #application {
-    padding: var(--space-margin);
+    padding: var(--space-margin) 0;
 }
 #application .cards{
     display: flex;
@@ -72,4 +72,44 @@ header{
 }
 #testimonial .cards > .box{
     margin-bottom: var(--space-margin);
+}
+
+
+
+
+
+/* SECTION BENEFITS  */
+#benefits{
+    background-color: var(--secondary-color);
+    padding: var(--space-margin) 0;
+}
+#benefits  .container > .box {
+    margin-bottom: var(--space-margin);
+}
+#benefits .cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#benefits .card{
+    width: calc((100% / 3) - 1.75rem) ;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 1.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* SECTION ABOUT */
+#about{
+    padding: var(--space-margin) 0;
+}
+#about .row{
+    width: 100%;
+    display: flex;
 }
