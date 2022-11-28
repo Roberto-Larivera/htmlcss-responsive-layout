@@ -32,7 +32,10 @@ header{
     display: flex;
 } 
 #application .cards .card:first-child{
-    width: calc(((100% / 3 - 1.75rem))*2);
+    width: calc(((100% / 3 ) * 2) - 1.75rem);
+} 
+#application .cards .card:first-child > *{
+    width: 50%;
 } 
 
 
@@ -46,6 +49,8 @@ header{
 #planning .row{
     display: flex;
     align-content: flex-end;
+    max-width: 768px;
+    margin: 0 auto;
 }
 #planning .row .col{
     width: 50%;
@@ -53,7 +58,18 @@ header{
 
 
 
-/* SECTION PARTNERS  */
-#partners{
+/* SECTION TESTIMONIAL  */
+#testimonial{
     padding: var(--space-margin) 0;
+}
+#testimonial .cards .card{
+    width: 100%;
+    display: flex;
+    margin-bottom: var(--space-margin);
+}
+#testimonial .cards .card .box{
+    width: 50%;
+}
+#testimonial .cards > .box{
+    margin-bottom: var(--space-margin);
 }
