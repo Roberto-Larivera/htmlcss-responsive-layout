@@ -132,3 +132,20 @@ header{
     background-color: var(--secondary-color);
     padding: var(--space-margin) 0;
 }
+#get-started .row .line{
+    margin-bottom: var(--space-margin);
+}
+
+
+
+/* FOOTER  */
+footer{
+    background-color: var(--black-gray-color);
+    padding: var(--space-margin) 0;
+}
+footer .row{
+    max-width:768px ;
+}
+footer .row .box:first-child{
+    margin-bottom: 4rem;
+}
