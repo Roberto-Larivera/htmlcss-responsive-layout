@@ -38,8 +38,22 @@ header{
 
 
 
-/* SECTION APPLICATION  */
+/* SECTION PLANNING  */
 #planning{
-    background-color: var(--secondary-color);
-    
+    background-color: var(--secondary-color); 
+    padding: var(--space-margin) 0;
+}
+#planning .row{
+    display: flex;
+    align-content: flex-end;
+}
+#planning .row .col{
+    width: 50%;
+}
+
+
+
+/* SECTION PARTNERS  */
+#partners{
+    padding: var(--space-margin) 0;
 }
