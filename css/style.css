@@ -34,26 +34,29 @@ header .principal-header .box i{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     display: flex;
+    height: 250px;
+    border-radius: var(--space-radius);
 } 
 #application .cards .card:first-child{
     width: calc(((100% / 3 ) * 2) - 1.75rem);
 } 
+#application .cards .card .box{
+    width: 100%;
+    padding: var(--space-padding) var(--space-padding) 0 var(--space-padding);
+}
 #application .cards .card:first-child > *{
     width: 50%;
 } 
-#application .cards .card .box{
+#application .image{
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-#application .cards .card:first-child .box{
-    padding-bottom: 0;
+#application .image img{
+    height: 90%;
 }
-#application .cards .card .box h3{
-    margin: var(--space-margin);
-}
-#application .cards .card .box img{
-    width: 100%;
-}
-
 
 /* SECTION PLANNING  */
 #planning{
