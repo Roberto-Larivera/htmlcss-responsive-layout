@@ -51,6 +51,6 @@ h2{
 h1{
     font-size: 3em;
 }
-/* p{
-    font-size: 0.8em;
-} */
+p{
+    line-height: 30px;
+}

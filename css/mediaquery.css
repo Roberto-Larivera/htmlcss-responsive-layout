@@ -10,14 +10,10 @@
         display: inline-block;
     }
     #application .cards .card:first-child{
-        justify-content: flex-start;
         flex-direction: column;
     }
     #application .cards .card:first-child > *{
         width: 100%;
-    }
-    #application .card .card-image img{
-        width: 50%;
     }
 }
 
@@ -29,4 +25,33 @@
     .container{
         max-width: 576px;
     }
+    #application .cards{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #application .cards .card{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #application .card-space{
+        display: flex;
+        flex-direction: column;
+    }
+    #application .cards .card:first-child{
+        width: 100%;
+    }
+    #application .card .card-image img{
+        width: 80%;
+    }
+    #application .cards .card .card-image{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #application .my-btn{
+        align-self: center;
+        padding: 10px 50px;
+    }
+    
 }

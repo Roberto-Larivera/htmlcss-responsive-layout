@@ -205,7 +205,6 @@ header .navigation-icon{
 }
 #testimonial .card .card-text p{
     margin-bottom: var(--space-padding);
-    line-height: 30px;
 }
 #testimonial .card .card-text p::before{    /*   unicode   */
     font-family: "Font Awesome 5 Free"; 
@@ -302,7 +301,6 @@ header .navigation-icon{
 }
 #about .row .col p{
     margin-bottom: var(--space-padding);
-    line-height: 30px;
     color: var(--color-dark);
 }
 #about .box-image img{
@@ -358,7 +356,6 @@ header .navigation-icon{
 }
 #get-started .line-text p{
     color: var(--color-light);
-    line-height: 25px;
     /* margin-bottom: var(--space-padding); */
 }
 #get-started .my-btn{
