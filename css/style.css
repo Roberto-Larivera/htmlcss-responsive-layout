@@ -122,12 +122,10 @@ header .navigation-icon{
 #planning .row .col{
     padding: 0 var(--space-padding);
 }
-#planning .row .col:first-child{
+#planning .row .col{
     width: 50%;
 }
-#planning .row .col:last-child{
-    width: 50%;
-}
+
 #planning .col > .card-image img{
     width: 100%;
     margin-bottom: 60px;

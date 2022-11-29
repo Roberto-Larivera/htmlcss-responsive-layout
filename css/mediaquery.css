@@ -1,20 +1,53 @@
 /* MEDIUM */
 @media screen and (max-width:768px){
+    /* GENERALE */
+
     .container{
         max-width: 768px;
     }
+
+    /* HEADER */
+
     header .navigation{
         display: none;
     }
     header .navigation-icon{
         display: inline-block;
     }
+
+    /* APPLICATION */
+
     #application .cards .card:first-child{
         flex-direction: column;
     }
     #application .cards .card:first-child > *{
         width: 100%;
     }
+
+    /* PLANNING */
+
+    #planning .row{
+        display: inline-block;
+    }
+    #planning .row .col{
+        width: 100%;
+    }
+    #planning .row .col:first-child p{
+        margin-bottom: var(--space-margin);
+    }
+    #planning .row .col:first-child h3{
+        font-size: var(--font-maxi-tre);
+    }
+
+    /* TESTIMONIAL */
+
+    /* BENEFICTS */
+
+    /* ABOUT /
+
+    /* GET-STARTED */
+
+    /* FOOTER  */
 }
 
 
@@ -22,13 +55,21 @@
 
 /* SMALL  */
 @media screen and (max-width:576px){
+    /* GENERALE */
+
     .container{
         max-width: 576px;
     }
+
+    /* HEADER */
+
     #application .cards{
         flex-direction: column;
         margin: 0 auto;
     }
+
+    /* APPLICATION */
+
     #application .cards .card{
         width: 100%;
         margin-left: 0;
@@ -53,5 +94,21 @@
         align-self: center;
         padding: 10px 50px;
     }
+
+    /* PLANNING */
+
+    #planning .row .col:first-child h3{
+        font-size: var(--font-maxi-duec);
+    }
+
+    /* TESTIMONIAL */
+
+    /* BENEFICTS */
+
+    /* ABOUT /
+
+    /* GET-STARTED */
+
+    /* FOOTER  */
     
 }
