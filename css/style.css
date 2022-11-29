@@ -330,7 +330,7 @@ header .principal-header .box .my-btn{
     text-align: center;
 }
 #get-started .line-text{
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -374,9 +374,22 @@ footer{
     padding: var(--space-margin) 0;
 }
 footer .row{
-    max-width:768px ;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
 footer .row .box:first-child{
     margin-bottom: 4rem;
 }
-
+footer .row p{
+    margin-bottom: var(--space-margin-tre);
+}
+footer .row span,
+footer .row p{
+    color: var(--color-light);
+    font-size: var(--font-mini);
+}
+footer .row span a{
+    color: var(--secondary-color);
+    font-size: var(--font-mini);
+}
