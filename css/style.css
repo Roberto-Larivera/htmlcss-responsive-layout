@@ -144,7 +144,7 @@ header .principal-header .box .my-btn{
     background-color: var(--secondary-color);
     color: var(--color-dark);
     display: inline-block;
-    margin-top: 30px;
+    margin-top: var(--space-padding);
     border-radius: 50%;
 
 }
@@ -163,8 +163,12 @@ header .principal-header .box .my-btn{
     border-radius: var(--space-radius-due);
 }
 #testimonial .cards > .card-text{
+    color: var(--color-dark);
     text-align: center;
-    margin-bottom: 30px;
+    margin: var(--space-padding) 0;
+}
+#testimonial .cards .card-text h2{
+    color: var(--secondary-color);
 }
 #testimonial span{
     text-transform: uppercase;
@@ -184,8 +188,27 @@ header .principal-header .box .my-btn{
     object-fit: cover;
     border-radius: 50%;
 }
-
-
+#testimonial .card .card-text{
+    color: var(--color-light);
+    padding-left: var(--space-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#testimonial .card .card-text p{
+    margin-bottom: var(--space-padding);
+    line-height: 30px;
+}
+#testimonial .card .card-text p::before{    /*   unicode   */
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f10d';
+}
+#testimonial .card .card-text p::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f10e';
+}
 
 
 /* SECTION BENEFITS  */
