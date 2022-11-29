@@ -103,6 +103,19 @@
 
     /* TESTIMONIAL */
 
+    #testimonial .cards .card{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: var(--space-margin);
+        border-radius: var(--space-radius-due);
+    }
+    #testimonial .card .card-text{
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+
     /* BENEFICTS */
 
     /* ABOUT /

@@ -179,20 +179,25 @@ header .navigation-icon{
 #testimonial span{
     text-transform: uppercase;
 }
-#testimonial .cards .card .card-image:first-child{
+#testimonial .card span{
+    font-weight: 700;
+}
+/* #testimonial .cards .card .col{
     width: 20%;
 }
 #testimonial .cards .card .card-image:last-child{
     width: 80%;
-}
-#testimonial .cards > .card-image{
+} */
+#testimonial .card .card-image{
+    /* width: 200px;
+    height: 200px; */
     margin-bottom: var(--space-margin);
 }
 #testimonial .cards .card .card-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    object-fit: cover;
 }
 #testimonial .card .card-text{
     color: var(--color-light);
