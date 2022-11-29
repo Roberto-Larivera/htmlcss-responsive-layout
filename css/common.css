@@ -18,6 +18,7 @@ body{
     --color-dark: #333;
     
     --space-margin: 2rem;
+    --space-margin-due: 5rem;
     --space-padding: 30px;
     --space-radius: 20px;
     --space-radius-due: 30px;
@@ -33,4 +34,8 @@ body{
 .my-btn{
     padding: 10px 15px;
     border-radius: 15px;
+}
+
+h3{
+    margin: 30px 0;
 }
