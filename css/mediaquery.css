@@ -43,6 +43,10 @@
 
     /* BENEFICTS */
 
+    #benefits .card{
+        width: calc((100% / 2) - 1.75rem) ;
+    }
+
     /* ABOUT /
 
     /* GET-STARTED */
@@ -117,6 +121,12 @@
 
 
     /* BENEFICTS */
+
+    #benefits .card{
+        width: 100% ;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     /* ABOUT /
 
