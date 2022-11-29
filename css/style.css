@@ -95,17 +95,28 @@ header .principal-header .box i{
     padding: var(--space-margin) 0;
 }
 #testimonial .cards .card{
+    background-color: var(--secondary-color);
+    padding: var(--space-padding) var(--space-radius);
     width: 100%;
     display: flex;
     margin-bottom: var(--space-margin);
+    border-radius: var(--space-radius-due);
 }
-#testimonial .cards .card .box{
-    width: 50%;
+#testimonial .cards .card .box:first-child{
+    width: 20%;
+}
+#testimonial .cards .card .box:last-child{
+    width: 80%;
 }
 #testimonial .cards > .box{
     margin-bottom: var(--space-margin);
 }
-
+#testimonial .cards .card .box img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
 
