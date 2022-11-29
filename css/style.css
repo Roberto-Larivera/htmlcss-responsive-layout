@@ -103,7 +103,7 @@ header .principal-header .box .my-btn{
 #planning .row{
     display: flex;
     align-items: flex-end;
-    max-width: 768px;
+    max-width: 768px; /* larghezza di medium*/
     margin: 0 auto;
     height: 100%;
     padding-top: 50px;
@@ -162,16 +162,23 @@ header .principal-header .box .my-btn{
     margin-bottom: var(--space-margin);
     border-radius: var(--space-radius-due);
 }
-#testimonial .cards .card .box:first-child{
+#testimonial .cards > .card-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#testimonial span{
+    text-transform: uppercase;
+}
+#testimonial .cards .card .card-image:first-child{
     width: 20%;
 }
-#testimonial .cards .card .box:last-child{
+#testimonial .cards .card .card-image:last-child{
     width: 80%;
 }
-#testimonial .cards > .box{
+#testimonial .cards > .card-image{
     margin-bottom: var(--space-margin);
 }
-#testimonial .cards .card .box img{
+#testimonial .cards .card .card-image img{
     width: 150px;
     height: 150px;
     object-fit: cover;
