@@ -1,6 +1,7 @@
 /* REGOLE HEADER  */
 header{
     background-color: var(--primary-color);
+    padding: var(--space-margin) 0;
 }
 
 header .principal-header{
@@ -10,8 +11,20 @@ header .principal-header{
 }
 
 header .principal-header .box i{
-    color: var(--primary-color-text);
+    display:  none;
+    color: var(--color-light);
     font-size: 2rem;
+}
+header .principal-header .box ul{
+    display: flex;
+}
+header .principal-header .box ul li{
+    list-style-type: none;
+    margin-left: var(--space-margin);
+}
+header .principal-header .box ul li a{
+    text-decoration: none;
+    color: var(--color-light);
 }
 /* REGOLE MAIN  */
 
@@ -137,6 +150,9 @@ header .principal-header .box i{
 }
 
 #benefits .card{
+    background-color: var(--color-light);
+    padding: var(--space-padding) var(--space-radius);
+    border-radius: var(--space-radius-due);
     width: calc((100% / 3) - 1.75rem) ;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
