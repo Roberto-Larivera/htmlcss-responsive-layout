@@ -14,9 +14,9 @@
     --color-light: white;
     
     --space-margin: 2rem;
-    --space-padding: 2.2rem;
-    --space-radius: 1rem;
-    --space-radius-due: 2rem;
+    --space-padding: 30px;
+    --space-radius: 20px;
+    --space-radius-due: 30px;
 
 }
 
