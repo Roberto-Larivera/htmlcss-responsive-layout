@@ -1,0 +1,16 @@
+/* MEDIUM */
+@media screen and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+}
+
+
+
+
+/* SMALL  */
+@media screen and (max-width:576px){
+    .container{
+        max-width: 576px;
+    }
+}

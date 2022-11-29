@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* REGOLE GENERALI  */
 :root{
@@ -12,6 +15,7 @@
     --secondary-color: #9792e4;
     --black-gray-color: #333;
     --color-light: white;
+    --color-dark: #333;
     
     --space-margin: 2rem;
     --space-padding: 30px;
@@ -26,4 +30,7 @@
     padding: 0 var(--space-margin) ;
 
 }
-
+.my-btn{
+    padding: 10px 15px;
+    border-radius: 15px;
+}
