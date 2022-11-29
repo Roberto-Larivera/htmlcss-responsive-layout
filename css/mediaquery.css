@@ -3,6 +3,12 @@
     .container{
         max-width: 768px;
     }
+    header .navigation{
+        display: none;
+    }
+    header .navigation-icon{
+        display: inline-block;
+    }
 }
 
 

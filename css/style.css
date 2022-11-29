@@ -10,28 +10,32 @@ header .principal-header{
     align-items: center;
 }
 
-header .principal-header .box i{
+header .principal-header .navigation i{
     display:  none;
     color: var(--color-light);
     font-size: 2rem;
 }
-header .principal-header .box ul{
+header .principal-header .navigation ul{
     display: flex;
 }
-header .principal-header .box ul li{
+header .principal-header .navigation ul li{
     list-style-type: none;
     margin-left: var(--space-margin);
 }
-header .principal-header .box ul li a{
+header .principal-header .navigation ul li a{
     text-decoration: none;
     color: var(--color-light);
     font-size: var(--font-mini);
 }
-header .principal-header .box .my-btn{
+header .principal-header .navigation .my-btn{
     display: inline;
     text-decoration: none;
     color: var(--color-dark);
     background-color: var(--color-light);
+}
+header .navigation-icon{
+    display: none;
+    color: var(--color-light);
 }
 /* REGOLE MAIN  */
 
