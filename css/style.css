@@ -242,7 +242,7 @@ header .principal-header .box .my-btn{
     color: var(--color-light);
     background-color: var(--secondary-color);
     margin-top: var(--space-padding);
-    padding: 10px 30px;
+    padding: 10px var(--space-padding);
     
     
 }
@@ -327,10 +327,44 @@ header .principal-header .box .my-btn{
 #get-started{
     background-color: var(--secondary-color);
     padding: var(--space-margin) 0;
+    text-align: center;
 }
-#get-started .row .line{
-    margin-bottom: var(--space-margin);
+#get-started .line-text{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-padding);
 }
+#get-started .row > span{
+    color: lightgray;
+}
+#get-started h2{
+    color: var(--color-light);
+}
+#get-started h1{
+    color: #fec05e;
+}
+#get-started .line-text p{
+    color: var(--color-light);
+    line-height: 25px;
+    /* margin-bottom: var(--space-padding); */
+}
+#get-started .my-btn{
+    color: var(--secondary-color);
+    background-color: var(--color-light);
+    align-self: center;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+#get-started .line-text span{
+    font-size: var(--font-mini);
+    color: var(--color-light);
+}
+#get-started .line-text span a{
+    color: var(--color-light);
+}
+
 
 
 
@@ -345,3 +379,4 @@ footer .row{
 footer .row .box:first-child{
     margin-bottom: 4rem;
 }
+
