@@ -24,6 +24,7 @@ body{
     --space-radius: 20px;
     --space-radius-due: 30px;
 
+    --font-mini: 0.8em;
 }
 
 .container{
@@ -36,6 +37,7 @@ body{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 15px;
+    font-size: var(--font-mini);
 }
 
 h3, h2{
@@ -43,4 +45,7 @@ h3, h2{
 }
 h2{
     font-size: 2em;
+}
+p{
+    font-size: 0.8em;
 }

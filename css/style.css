@@ -25,6 +25,7 @@ header .principal-header .box ul li{
 header .principal-header .box ul li a{
     text-decoration: none;
     color: var(--color-light);
+    font-size: var(--font-mini);
 }
 header .principal-header .box .my-btn{
     display: inline;
@@ -130,9 +131,6 @@ header .principal-header .box .my-btn{
     text-align: center;
     border-radius: var(--space-radius-due);
 }
-#planning .col p{
-    font-size: 0.7em;
-}
 #planning .col > h3 ,
 #planning .col > p{
     color: var(--color-light);
@@ -202,11 +200,13 @@ header .principal-header .box .my-btn{
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900;
     content: '\f10d';
+    font-size: 1rem;
 }
 #testimonial .card .card-text p::after{
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900;
     content: '\f10e';
+    font-size: 1rem;
 }
 
 
@@ -233,13 +233,34 @@ header .principal-header .box .my-btn{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     margin-bottom: 1.75rem;
-    display: flex;
-    flex-direction: column;
 }
 #benefits .card .my-btn{
     color: var(--color-light);
     background-color: var(--secondary-color);
+    margin-top: var(--space-padding);
+    padding: 10px 30px;
+    
+    
 }
+#benefits .card span{
+    font-weight: 700;
+    font-size: 3em;
+}
+#benefits .card h3{
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+#benefits .card h3,
+#benefits .card span{
+    color: var(--secondary-color);
+}
+#benefits .card p{
+    color: var(--color-dark);
+}
+
+
+
+
 
 
 
