@@ -292,6 +292,7 @@ header .principal-header .box .my-btn{
 #about .row .col p{
     margin-bottom: var(--space-padding);
     line-height: 30px;
+    color: var(--color-dark);
 }
 #about .box-image img{
     width: 100%;
@@ -306,6 +307,9 @@ header .principal-header .box .my-btn{
 #about .box-image i{
     position: absolute;
     right: 0;
+    color: var(--secondary-color);
+}
+#about .col-int h3{
     color: var(--secondary-color);
 }
 #about .col .my-btn{
