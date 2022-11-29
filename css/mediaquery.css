@@ -9,6 +9,16 @@
     header .navigation-icon{
         display: inline-block;
     }
+    #application .cards .card:first-child{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    #application .cards .card:first-child > *{
+        width: 100%;
+    }
+    #application .card .card-image img{
+        width: 50%;
+    }
 }
 
 
