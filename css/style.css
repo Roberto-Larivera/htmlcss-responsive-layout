@@ -83,7 +83,6 @@ header .principal-header .box .my-btn{
     background-color: var(--primary-color);
     text-decoration: none;
     color: var(--color-light);
-    word-spacing: 5px;
 }
 #application .cards .card h3{
     color: var(--primary-color);
@@ -163,6 +162,7 @@ header .principal-header .box .my-btn{
     color: var(--color-dark);
     text-align: center;
     margin: var(--space-padding) 0;
+    
 }
 #testimonial .cards .card-text h2{
     color: var(--secondary-color);
@@ -180,8 +180,8 @@ header .principal-header .box .my-btn{
     margin-bottom: var(--space-margin);
 }
 #testimonial .cards .card .card-image img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -217,6 +217,10 @@ header .principal-header .box .my-btn{
 }
 #benefits  .container > .box {
     margin-bottom: var(--space-margin);
+    text-align: center;
+}
+#benefits  .container > .box h2{
+    color: var(--color-light);
 }
 #benefits .cards{
     display: flex;
@@ -278,10 +282,39 @@ header .principal-header .box .my-btn{
 }
 #about .row .col:last-child{
     width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
-#about .row .col .box{
-    margin-bottom: var(--space-margin);
+#about .row .col h2{
+    color: var(--secondary-color);
+    font-size: 3rem;
 }
+#about .row .col p{
+    margin-bottom: var(--space-padding);
+    line-height: 30px;
+}
+#about .box-image img{
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 50%;
+}
+#about .col-int{
+    position: relative;
+    width: 70%;
+}
+#about .box-image i{
+    position: absolute;
+    right: 0;
+    color: var(--secondary-color);
+}
+#about .col .my-btn{
+    color: var(--color-light);
+    background-color: var(--secondary-color);
+}
+
+
+
 
 
 
