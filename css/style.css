@@ -5,6 +5,8 @@ header{
     position: sticky;
     top: 0;
     z-index: 20;
+    -webkit-box-shadow: 0px 7px 36px 6px rgba(1,131,253,0.5); 
+    box-shadow: 0px 7px 36px 6px rgba(1,131,253,0.5);
 }
 
 header .principal-header{
@@ -12,7 +14,10 @@ header .principal-header{
     justify-content: space-between;
     align-items: center;
 }
-
+header .principal-header > a{
+    display: flex;
+    align-items: center;
+}
 header .principal-header .navigation i{
     display:  none;
     color: var(--color-light);
@@ -40,7 +45,11 @@ header .navigation-icon{
     display: none;
     color: var(--color-light);
 }
-
+header .principal-header .navigation ul li a:not(.my-btn):hover{
+    text-decoration:underline;
+    /* color: var(--color-light); */
+    /* font-size: var(--font-mini); */
+}
 
 
 
@@ -52,6 +61,7 @@ header .navigation-icon{
 /* SECTION APPLICATION  */
 #application {
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
 }
 #application .cards{
     display: flex;
@@ -113,6 +123,8 @@ header .navigation-icon{
 #planning{
     background-color: var(--secondary-color); 
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
+
 }
 #planning .row{
     display: flex;
@@ -154,13 +166,39 @@ header .navigation-icon{
     color: var(--color-dark);
     margin-top: var(--space-padding);
     border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0;
+
+
 
 }
-
+#planning .card .my-btn:hover{
+    color: var(--color-light);
+}
+#planning .card .my-btn:hover{
+    animation: aroow-ani;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-iteration-count:1;
+    animation-timing-function:ease; 
+}
+@keyframes aroow-ani{
+   
+    0%   {
+        rotate: 0deg;
+    }
+    100%   {
+        rotate: 360deg;
+    }
+}
 
 /* SECTION TESTIMONIAL  */
 #testimonial{
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
+
 }
 #testimonial .cards .card{
     background-color: var(--secondary-color);
@@ -230,6 +268,7 @@ header .navigation-icon{
 #benefits{
     background-color: var(--secondary-color);
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
 }
 #benefits  .container > .box {
     margin-bottom: var(--space-margin);
@@ -287,6 +326,8 @@ header .navigation-icon{
 /* SECTION ABOUT */
 #about{
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
+
 }
 #about .row{
     width: 100%;
@@ -363,6 +404,8 @@ header .navigation-icon{
     background-color: var(--secondary-color);
     padding: var(--space-margin) 0;
     text-align: center;
+    scroll-margin-top:69px;
+
 }
 #get-started .line-text{
     max-width: 400px;
@@ -406,6 +449,8 @@ header .navigation-icon{
 footer{
     background-color: var(--black-gray-color);
     padding: var(--space-margin) 0;
+    scroll-margin-top:69px;
+
 }
 footer .row{
     max-width: 400px;
