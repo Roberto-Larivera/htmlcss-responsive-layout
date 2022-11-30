@@ -47,12 +47,23 @@
         width: calc((100% / 2) - 1.75rem) ;
     }
 
-    /* ABOUT /
+    /* ABOUT */
+
+    #about .row .col:first-child{
+        width: 50%;
+    }
+    #about .row .col:last-child{
+        width: 50%;
+    }
 
     /* GET-STARTED */
 
     /* FOOTER  */
 }
+
+
+
+
 
 
 
@@ -128,7 +139,27 @@
         margin-right: 0;
     }
 
-    /* ABOUT /
+    /* ABOUT */
+
+    #about .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #about .row .col:first-child{
+        width: 100%;
+        padding-left: 0;
+    }
+    #about .row .col:last-child{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 0;
+    }    
+    #about .col-int{
+        width: 100%;
+    }
 
     /* GET-STARTED */
 
